@@ -11,3 +11,7 @@ docker exec -it postgres psql -U nestjsuser fleamarket
 ```
 npx prisma studio
 ```
+
+```
+nest g resource auth --no-spec
+```
