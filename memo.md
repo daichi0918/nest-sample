@@ -15,3 +15,7 @@ npx prisma studio
 ```
 nest g resource auth --no-spec
 ```
+
+```
+npx prisma migrate dev --name addUser
+```
